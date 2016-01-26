@@ -63,15 +63,15 @@ def main(argv):
     formats = {
 		'Music'		 :	 ['.mp3','.aac','.flac','.ogg','.wma','.m4a','.aiff','.wav'],
 		'Videos'	 :	 ['.flv','.ogv','.avi','.mp4','.mpg','.mpeg','.3gp','.mov','.wmv','.mkv','.m4v'],
-		'Pictures'	 : 	 ['.png','.jpeg','.gif','.jpg','.bmp','.svg','webp','.nef','.hdr'],
+		'Pictures'	 : 	 ['.png','.jpeg','.gif','.jpg','.bmp','.svg','webp','.nef','.hdr','.tiff'],
 		'Archives'	 : 	 ['.rar','.zip','.7z','.gz','.bz2', '.tar', '.pkg', '.img','.iso','.eml','.tgz','.hqx'],
 		'Documents'	 :	 ['.txt', '.pdf','.doc','.docx','.xls','.xlsv','.xlsx',
-	           			  '.ppt','.pptx','.ppsx','.odp','.odt','.ods','.csv','.key','.rtf'],
-	    'Misc'		 :	 ['.torrent','.crdownload'],
+	           			  '.ppt','.pptx','.ppsx','.odp','.odt','.ods','.csv','.key','.rtf','.localized'],
+	    'Misc'		 :	 ['.torrent','.crdownload','.vcf'],
 	    'Executables':   ['.dmg', '.exe', '.apk', '.app'],
-	    '3D'         :   ['.stl', '.obj', '.mtl', '.igs', '.gcode', '.fbx', '.3ds', '.blend' ],
+	    '3D'         :   ['.stl', '.obj', '.mtl', '.igs', '.gcode', '.fbx', '.3ds', '.blend', '.mix' ],
 	    'Graphics'   :   ['.ai','.psd','.ico','.icns'],
-	    'Code'       :   ['.py','.js', '.html', '.css', '.pde', '.php', '.json', '.md', '.cs','.sql','.ini','.xmp','.unitypackage','.opml' ]
+	    'Code'       :   ['.py','.js', '.html', '.css', '.pde', '.php', '.json', '.md', '.cs','.sql','.ini','.xmp','.unitypackage','.opml','.webloc','.log' ]
 	}
 
     if ((args.specific_folder is None) != (args.specific_types is None)):
