@@ -71,7 +71,7 @@ def main(argv):
 	    'Executables':   ['.dmg', '.exe', '.apk', '.app'],
 	    '3D'         :   ['.stl', '.obj', '.mtl', '.igs', '.gcode', '.fbx', '.3ds', '.blend', '.mix' ],
 	    'Graphics'   :   ['.ai','.psd','.ico','.icns'],
-	    'Code'       :   ['.py','.js', '.html', '.css', '.pde', '.php', '.json', '.md', '.cs','.sql','.ini','.xmp','.unitypackage','.opml','.webloc','.log' ]
+	    'Code'       :   ['.py','.ino','.js', '.html', '.css', '.pde', '.php', '.json', '.md', '.cs','.sql','.ini','.xmp','.unitypackage','.opml','.webloc','.log' ]
 	}
 
     if ((args.specific_folder is None) != (args.specific_types is None)):
